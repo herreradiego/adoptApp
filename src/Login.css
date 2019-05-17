@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.login-main{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr 1 fr;
+    align-items: top;
+    background-color:#69DBD2;
+}
+
+
+
+.bar-nav-mob{
+    display: flex;
+    width: 100%;
+    background-color: #69DBD2;
+    height: 50px;
+    border-bottom: 3px solid #F3F3F3;
+    
+}
+
+.nav-bar-logo{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    align-self: center;
+    justify-self: center;
+    padding-left: 15px;
+    color:#F3F3F3;
+}
+
+.nav-bar-logo-app-color{
+    font-weight: 700;
+    color:#865BC7;
+}
+
+/*
+.login-left-photo{
+   
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    
+    
+}
+
+.left-img{
+    position: absolute;
+    right:0px;
+    top:20px;
+    width: 100%;
+    max-width: 600px;
+
+}
+.left-title{
+
+}
+
+.login-right-panel{
+
+    width: 50%;
+
+
+
+
+    width: 500px;
+    margin:0 auto;
+    justify-content: center;
+    text-align: center;
+
+  border-radius:8px;
+  padding:10px;
+  background-color:#FCFCFC;
+
+    
+}
+
+.login-box{
+    background-color:#F3F3F3
+}
+
+.login-img{
+    margin:0 auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.login-title{
+    margin: 0;
+    padding: 5px;
+    font-size: 1rem;
+    color:#F05D70;
+}
+
+.social-btn-container{
+    width: 60%;
+    margin: 0 auto;
+    font-size:10px;
+}
+
+
+.form-cont{
+    margin:0 auto;
+    padding:10px;
+    width: 80%;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-row: 1fr 1fr 1fr 1fr
+}
+
+SocialIcon{
+    margin:0 auto;
+    padding:10px;
+    width: 80%;
+    display: inline-block
+}*/
+
+
+
+/*//////LOGIN/////////*/
+
+h6.main-container{
+    background: linear-gradient(180deg, #F8F8F8 0%, #FCFCFC 100%);
+    text-align: center;
+   
+    
+    }
+.login-container{
+    text-align: center;
+    padding:20px;
+
+/* Sombra de cajas */
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.navbar{
+    background-color: #55E6C1;
+    color:#383737;
+}
+nav .sidenav-trigger{
+    float: right;
+}
+a.brand-logo{
+    color:#383737;
+    display: flex;
+    align-items: center;
+}
+i.material-icons{
+    color:#383737;
+}
+.menu-line{
+    width: 30px;
+    height: 10px;
+    margin: 5px;
+    background-color: white;
+}
+
+.social{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+.social-title{
+    font-size: 1.2rem;
+}
+
+
+.facebook-btn,.gootle-btn,.twitter-btn{
+    display:block;
+    width: 200px;
+    border:1px solid black;
+    height: 50px;
+    margin: 5px auto;
+    color: white;
+    font-weight: 700;
+
+}
+
+.facebook-btn,.gootle-btn,.twitter-btn:active {
+
+}
+
+button.facebook-btn{
+    background-color: #3B5796;
+   
+}
+
+
+button.gootle-btn{
+    background-color: #DD493A;
+
+}
+
+button.twitter-btn{
+    background-color: #07AAEB;
+}
